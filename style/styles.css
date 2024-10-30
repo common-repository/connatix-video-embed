@@ -1,0 +1,22 @@
+
+.cnx-icons.cnx-video-embed-icon {
+    font: 400 20px/1 dashicons;
+    padding: 0;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: -2px;
+    padding-right: 2px
+}
+
+
+p.cnx_video_wrap {
+    position: relative !important;
+    overflow: hidden !important;
+    padding-top: 24% !important; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+p.cnx-modal-actions-wrap {
+    margin: 0;
+}

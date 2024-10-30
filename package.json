@@ -1,0 +1,22 @@
+{
+  "name": "connatix-video-embed",
+  "version": "1.0.0",
+  "description": "Connatix Video Embed",
+  "main": "plugin.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "author": "Connatix",
+  "license": "GPLv2",
+  "devDependencies": {
+    "@wordpress/scripts": "25.3.6",
+    "dangerously-set-html-content": "1.1.0"
+  },
+  "dependencies": {
+    "@wordpress/block-editor": "^12.18.2",
+    "@wordpress/components": "^25.16.0",
+    "@wordpress/element": "^5.27.0",
+    "@wordpress/i18n": "^4.50.0"
+  }
+}
